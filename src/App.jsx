@@ -8,6 +8,7 @@ import Signup from "./pages/SignupPage";
 import DoctorContactForm from "./components/Contact";
 import About from "./components/About";
 import PatientInfoCard from "./components/PatientInfoCard";
+import ForgotPassword from "./components/ForgotPassword";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/patientDetails" element={<PatientMedicalForm />} />
         <Route path="/patientInfo" element={<PatientInfoCard/>} />
         <Route path="/signup" element={<Signup />} />
+         <Route path="/forgotPassword" element={<ForgotPassword />} />
 
         {/* Optional pages */}
         <Route path="/about" element={<About/>} />

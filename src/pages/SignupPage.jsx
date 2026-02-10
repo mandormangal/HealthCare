@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 const Signup = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-50 to-purple-50">
@@ -50,7 +50,7 @@ const Signup = () => {
 
         <p className="text-center text-gray-500 mt-4">
           Already have an account?{" "}
-          <span className="text-indigo-600 cursor-pointer">Login</span>
+          <Link to='/login'><span className="text-indigo-600 cursor-pointer">Login</span></Link>
         </p>
       </div>
     </div>
